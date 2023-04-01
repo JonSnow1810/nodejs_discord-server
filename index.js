@@ -3,6 +3,7 @@ const Discord = require('discord.js');
 const axios = require('axios');
 const client = new Discord.Client();
 
+
 let interval;
 client.on('message', async msg => {
   switch (msg.content) {
